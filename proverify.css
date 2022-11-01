@@ -1,0 +1,333 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(34, 34, 34, 0.8);
+}
+
+@media (min-width: 1024px){
+     body {
+    background-attachment: fixed;
+     }
+}
+
+.jersey{
+    font-family: "Open Sans", sans-serif;
+    background: sticky;
+    background-size:cover;
+    background:url("lap2.jpg");
+    color: white;
+    opacity: 0.8;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.water{
+    display: flex;
+    justify-content: space-between;
+    background: gold;
+    padding: 20px;
+    position: fixed;
+    width: 88%;
+    margin-top: 20px;
+    margin: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.mug{
+    color:white;
+    margin-left:10px;
+}
+
+.ball{
+    list-style:none;
+    display:flex;
+    margin-right:15px;
+}
+
+
+.good{
+    padding:150px 0 0 0;
+    text-align:center;
+    height:100vh;
+    margin:0;
+    color:white;
+}
+
+.pool{
+    text-align: center;
+    padding: 0px 0 0 0;
+    height: 50vh;
+    margin:0;
+    color:white;
+}
+
+.street{
+    width: 300px;
+    height: 35px;
+    margin-left: 35%;
+    color: black;
+}
+
+input{
+    border: none;
+    background: white;
+}
+
+.btn{
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    padding-top: 5px;
+    margin-right: 35%;
+}
+
+.btn1{
+    background: red;
+    color: white;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    padding: 25px;
+    border-color: black 1px solid;
+}
+
+.mlm{
+    display: flex;
+}
+
+.qqq{
+    padding-left: 20px;
+}
+
+.ppp{
+    margin-left: 43%;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+a:hover {
+    color: #ff3333;
+    text-decoration: none;
+    transition: 1s ease all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Raleway", sans-serif;
+}
+
+.kkk{
+    text-align: center;
+}
+
+.form{
+    flex-direction: column;
+    
+}
+
+.ttt{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin: 180px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.06);
+    
+}
+
+.tuy{
+    display: flex;
+   
+}
+
+.jug{
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.copy{
+    display: flex;  
+    text-align: left; 
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+select{
+    border: none;
+    outline: none;
+    background: gold;
+    color: white;
+}
+
+.peg{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.peg1{
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    height: 45px;
+    width: 400px;
+}
+
+.peg2{
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    height: 45px;
+    margin-right: 40px;
+    width: 400px;
+}
+
+.peg3{
+    padding-bottom: 20px;
+}
+
+.peg4{
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    height: 45px;
+    width: 818px;
+}
+
+.peg5{
+    padding-bottom: 20px;
+
+}
+
+.peg6{
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    border: none; 
+    height: 150px;
+    width: 818px;
+}
+
+textarea{
+    outline: none;
+    color: white;
+}
+
+.vvv{
+    align-items: center;
+}
+
+.btn2{
+    background: red;
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    padding: 15px;
+    border: none;
+    margin-left: 40%;
+}
+
+.btn2:hover {
+    color: lightgrey;
+    text-decoration: none;
+    background-color: white;
+    transition: 1s ease all;
+    border-radius: 5px;
+}
+
+#footer {
+    background: rgba(19, 19, 19, 0.4);
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+#footer .copyright {
+     text-align: center;
+}
+
+#footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer a {
+    color: #ff3333;
+}
+
+#footer a:hover{
+    color: green;
+    text-decoration: none;
+    transition: 1s ease all;
+}
+
+#header .countdown {
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 380px;
+}
+
+#header .countdown div {
+   text-align: center;
+   margin: 10px;
+   width: 100px;
+   padding: 15px 0;
+   background: rgba(255, 255, 255, 0.12);
+   border-top: 5px solid #ff3333;
+}
+
+#header .countdown div h3 {
+   font-weight: 700;
+   font-size: 44px;
+   margin-bottom: 15px;
+}
+
+#header .countdown div h4 {
+   font-size: 16px;
+   font-weight: 600;
+}
+.yyy{
+    display:flex;
+}
+
+.gotopbtn{
+    position: fixed;
+    height: 30px;
+    width: 40px;
+    background: #ff3333;
+    bottom: 15px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
